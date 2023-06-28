@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/toAddOrUpdateHome"
+        android:title="Add/Update"
+        android:icon="@drawable/ic_add_or_update"
+        />
+    <item
+        android:id="@+id/toGetHome"
+        android:title="ToGet"
+        android:icon="@drawable/ic_to_get"
+        />
+
+    <item
+        android:id="@+id/toGiveHome"
+        android:icon="@drawable/ic_to_give"
+        android:title="ToGive" />
+
+</menu>

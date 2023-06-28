@@ -28,8 +28,8 @@ public class ListToGetAdapter extends RecyclerView.Adapter<ListToGetAdapter.List
     @Override
     public void onBindViewHolder(@NonNull ListToGetAdapter.ListToGetViewHolder holder, int position) {
         Log.i(TAG, "onBindViewHolder: ---->position : "+position);
-        holder.tvItemName.setText(mData.get(position).getType());
-        holder.tvItemAmount.setText(String.valueOf(mData.get(position).getId()));
+        holder.tvItemName.setText(mData.get(position).getSecondParty());
+        holder.tvItemAmount.setText(String.valueOf(mData.get(position).getAmount()));
        // String.valueOf(mData.get(position).getId());
 
     }
